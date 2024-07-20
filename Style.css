@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body-container {
+    background-color: rgba(255, 205, 158, 1);
+    height: 450px;
+}
+
+.top-container{
+    width: 562px;
+    height: 109px;
+    padding-top: 83px;margin-left: 136px;
+
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+.manPic{
+    margin-left: 818px;
+    display: inline;
+    width: 475px;
+    height: 475px;
+    margin-top:-240px;
+}
+
+
+.button{
+    color: white;
+    background-color: black;
+    border-radius: 0.25rem;
+    width: 190px;
+    height: 44px;
+}
+
+.clickables{
+    padding-top: 80px;margin-left: 136px;
+}
+
+.more{
+    size: 20px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+}
+
+.content{
+    padding-top: 30px;
+}
+
+#mail{
+width: 254px;
+height: 40px;
+top: 411px;
+left: 136px;
+border-color: black ;
+border: 2px solid;
+border-radius: 0.25rem;
+}
+
+::placeholder{
+    padding-left: 13px;
+    font-weight: 600;
+    size: 20px;
+}
+
+.noSpam{
+    color: white;
+    margin-left: 80px;
+    font-weight: 500;
+    padding-top: 10px;
+    
+}
+
+.footer-container{
+    background-color: rgba(40, 40, 40, 1);
+    height: 258px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    
+}
+
+.left-footer{
+    padding-left: 191px;
+    padding-top: 30px;
+}
+
+.right-footer{
+    padding-left: 1015px;
+    margin-top: -158px;
+}
+
+.info1:hover,
+.info2:hover,
+.info3:hover,
+.info4:hover,
+.info5:hover,
+.info6:hover,
+.info7:hover,
+.info8:hover {
+    color: rgba(255, 205, 158, 1);
+}
+
+
