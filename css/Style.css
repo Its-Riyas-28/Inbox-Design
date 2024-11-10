@@ -92,15 +92,23 @@ main.hero {
     line-height: 2;
 } 
 
-@media (max-width: 768px) {
-  .input-btn {
-      flex-direction: column; 
-      align-items: stretch;
-      gap: 1rem; 
+@media (max-width: 600px) {
+
+  .row{
+    display: block;
   }
 
+  .hero_txt,.dweep-png{
+    width: 100%;
+  }
+
+  .dweep-png{
+    margin-top: 10px;
+  }
+  
   .input-txt, .btn {
-      width: 100%; 
+    min-width: 100%; 
+    margin-top: 10px;
   }
 }
 
